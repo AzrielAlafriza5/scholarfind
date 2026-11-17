@@ -1,0 +1,6 @@
+{
+  "name": "ScholarFind",
+  "description": "Mesin pencari publikasi ilmiah berbahasa Indonesia untuk mahasiswa menggunakan OpenAlex dan Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
