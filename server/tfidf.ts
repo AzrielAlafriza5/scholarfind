@@ -4,7 +4,7 @@ import type {
   Paper,
   PaperTermWeight,
   TfIdfTermBreakdown,
-} from '../src/types/paper';
+} from '../src/types/paper.js';
 
 /**
  * Bilingual stopword sets (English + Indonesian) for academic text preprocessing.

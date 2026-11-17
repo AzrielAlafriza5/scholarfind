@@ -2,8 +2,8 @@ import 'dotenv/config';
 import express from 'express';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import searchHandler from './api/search';
-import paperHandler from './api/paper';
+import searchHandler from './api/search.js';
+import paperHandler from './api/paper.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

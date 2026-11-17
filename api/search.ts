@@ -3,7 +3,7 @@ import {
   OpenAlexServiceError,
   searchOpenAlexPapers,
   validateSearchParams,
-} from '../server/openalex';
+} from '../server/openalex.js';
 
 type QueryMap = Record<string, unknown>;
 

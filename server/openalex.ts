@@ -3,11 +3,11 @@ import type {
   PublicationTypeFilter,
   SearchResponse,
   SortOption,
-} from '../src/types/paper';
+} from '../src/types/paper.js';
 import {
   rankPapersByTfIdfCosine,
   type RankedCandidateResult,
-} from './tfidf';
+} from './tfidf.js';
 
 const OPENALEX_BASE_URL = 'https://api.openalex.org';
 const REQUEST_TIMEOUT_MS = 12_000;
